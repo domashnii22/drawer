@@ -1,0 +1,26 @@
+.example__image {
+  width: 350px;
+  height: 709px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 350px 709px;
+  filter: drop-shadow(0px 4px 80px rgba(0, 0, 0, 0.25));
+}
+
+@media (max-width: 1150px) {
+  .example__image {
+    background-size: 226px 461px;
+    width: 226px;
+    height: 461px;
+  }
+}
+
+@media (max-width: 730px) {
+  .example__image {
+    background-size: 260px 522px;
+    width: 260px;
+    height: 522px;
+    margin: 0 auto;
+  }
+}

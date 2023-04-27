@@ -1,0 +1,25 @@
+.feedback__container-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  max-width: 500px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 1150px) {
+  .feedback__container-title {
+    margin-top: 70px;
+    font-size: 26px;
+    line-height: 31px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .feedback__container-title {
+    margin-top: 20px;
+    max-width: 260px;
+  }
+}

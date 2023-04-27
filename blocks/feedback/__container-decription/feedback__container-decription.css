@@ -1,0 +1,24 @@
+.feedback__container-decription {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(17, 17, 17, 0.6);
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 1150px) {
+  .feedback__container-decription {
+    margin-top: 24px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .feedback__container-decription {
+    margin-top: 20px;
+    max-width: 260px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,20 @@
+.functional__list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media (max-width: 920px) {
+  .functional__list {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 730px) {
+  .functional__list {
+    gap: 0;
+  }
+}

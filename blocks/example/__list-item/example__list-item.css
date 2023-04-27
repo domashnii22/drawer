@@ -1,0 +1,18 @@
+.example__list-item {
+  width: 350px;
+  height: 709px;
+}
+
+@media (max-width: 1150px) {
+  .example__list-item {
+    width: 226px;
+    height: 461px;
+  }
+}
+
+@media (max-width: 730px) {
+  .example__list-item {
+    width: 260px;
+    height: 522px;
+  }
+}

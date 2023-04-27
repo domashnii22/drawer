@@ -1,0 +1,14 @@
+.function__description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(17, 17, 17, 0.6);
+  margin: 0;
+}
+
+@media (max-width: 920px) {
+  .function__description {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}

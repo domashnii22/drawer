@@ -1,0 +1,41 @@
+.feedback__title {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 69px;
+  margin: 0;
+}
+
+@media (max-width: 1150px) {
+  .feedback__title {
+    font-size: 33px;
+    line-height: 37px;
+    margin: 0 auto;
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 900px) {
+  .feedback__title {
+    max-width: 648px;
+  }
+}
+
+@media (max-width: 750px) {
+  .feedback__title {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 600px) {
+  .feedback__title {
+    font-size: 26px;
+    line-height: 31px;
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 400px) {
+  .feedback__title {
+    max-width: 260px;
+  }
+}

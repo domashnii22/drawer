@@ -1,0 +1,27 @@
+.header {
+  max-width: 1420px;
+  background-color: #222222;
+  border-radius: 20px;
+  margin: 0 auto 60px;
+  position: relative;
+}
+
+@media (max-width: 920px) {
+  .header {
+    max-width: 748px;
+    margin: 0 auto 70px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    max-width: 500px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header {
+    max-width: 300px;
+  }
+}

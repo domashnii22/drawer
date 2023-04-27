@@ -1,0 +1,12 @@
+.swiper-pagination {
+  position: static;
+  display: none;
+}
+
+@media (max-width: 730px) {
+  .swiper-pagination {
+    display: block;
+    margin-top: 16px;
+    line-height: 4px;
+  }
+}

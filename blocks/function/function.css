@@ -1,0 +1,24 @@
+.function {
+  display: grid;
+  grid-template-rows: 40px 116px 72px;
+  background: #f8f8f8;
+  border-radius: 20px;
+  max-width: 540px;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+@media (max-width: 920px) {
+  .function {
+    grid-template-rows: 32px 112px 80px;
+    padding: 30px;
+  }
+}
+
+@media (max-width: 620px) {
+  .function {
+    grid-template-rows: 32px 112px 100px;
+    padding: 20px;
+    max-width: 400px;
+  }
+}

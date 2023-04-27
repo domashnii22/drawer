@@ -1,0 +1,9 @@
+.functional__list-item {
+  flex-shrink: unset;
+}
+
+@media (max-width: 730px) {
+  .functional__list-item {
+    flex-shrink: 0;
+  }
+}

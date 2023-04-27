@@ -1,0 +1,35 @@
+.footer__title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  margin-top: 60px;
+  margin-bottom: 0;
+  max-width: 460px;
+}
+
+@media (max-width: 1150px) {
+  .footer__title {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 690px) {
+  .footer__title {
+    font-size: 24px;
+    line-height: 29px;
+    max-width: 260px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 610px) {
+  .footer__title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer__title {
+    text-align: left;
+  }
+}

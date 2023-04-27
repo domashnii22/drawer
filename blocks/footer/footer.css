@@ -1,0 +1,26 @@
+.footer {
+  max-width: 1420px;
+  background-color: #222222;
+  border-radius: 20px;
+  margin: 120px auto 0;
+  position: relative;
+}
+
+@media (max-width: 920px) {
+  .footer {
+    max-width: 748px;
+    margin-top: 70px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer {
+    max-width: 300px;
+  }
+}

@@ -1,0 +1,40 @@
+.header__button {
+  background-color: #ffffff;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #222222;
+  width: 240px;
+  height: 54px;
+  margin-top: 108px;
+  margin-bottom: 130px;
+  padding: 0;
+  border: none;
+  transition: opacity 0.3s;
+  cursor: pointer;
+}
+
+.header__button:hover {
+  opacity: 0.93;
+  transition: opacity 0.3s;
+}
+
+@media (max-width: 1150px) {
+  .header__button {
+    height: 48px;
+    font-size: 14px;
+    margin-top: 250px;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header__button {
+    width: 260px;
+    height: 44px;
+    font-size: 12px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+}

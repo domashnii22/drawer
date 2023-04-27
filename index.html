@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link
+      rel="icon"
+      href="./images/logo.svg
+    "
+    />
+    <title>Рисовалка</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"
+      defer
+    ></script>
+    <script src="./scripts/index.js" defer></script>
+  </head>
+  <body>
+    <div class="page">
+      <div class="page-container">
+        <header class="header">
+          <div class="header__container">
+            <div class="header__logo"></div>
+            <h1 class="header__title">Не умеете рисовать? Не беда!</h1>
+            <p class="header__description">
+              С помощью нашего приложения вы можете чиркануть каляку и получить
+              шедевр.
+            </p>
+            <div class="header__image"></div>
+            <button
+              class="header__button"
+              type="button"
+              data-goto="."
+              aria-label="Кнопка перехода на следующую секцию"
+            >
+              Подробнее
+            </button>
+          </div>
+        </header>
+        <main class="content">
+          <section class="functional">
+            <div class="functional__slider swiper-container" data-mobile="false">
+              <ul class="functional__list swiper-wrapper">
+                <li class="functional__list-item swiper-slide">
+                  <article class="function">
+                    <p class="function__caption">AI</p>
+                    <h2 class="function__title">Умный интелект приложения</h2>
+                    <p class="function__description">
+                      С помощью AI приложение анализирует картины мастеров и
+                      современных практиков рисования, и достраивает картину за
+                      вас.
+                    </p>
+                  </article>
+                </li>
+                <li class="functional__list-item swiper-slide">
+                  <article class="function">
+                    <p class="function__caption">Ч/Б и Цвет</p>
+                    <h2 class="function__title">Рисуйте в любом стиле</h2>
+                    <p class="function__description">
+                      Будь то карандашная каляка-маляка или цветное произведение,
+                      приложение поможет в любой ситуации.
+                    </p>
+                  </article>
+                </li>
+              </ul>
+              <div class="swiper-pagination"></div>
+            </div>
+          </section>
+          <section class="example">
+            <h2 class="example__title">
+              Чик-чирик и ваша каляка превращается в изумительное произведение
+              искусства.
+            </h2>
+            <div class="example__slider swiper-container" data-mobile="false">
+              <ul class="example__list swiper-wrapper">
+                <li class="example__list-item swiper-slide">
+                  <div class="example__image example__image_number_one"></div>
+                </li>
+                <li class="example__list-item swiper-slide">
+                  <div class="example__image example__image_number_two"></div>
+                </li>
+                <li class="example__list-item swiper-slide">
+                  <div class="example__image example__image_number_three"></div>
+                </li>
+              </ul>
+              <div class="swiper-pagination"></div>
+            </div>
+          </section>
+          <section class="functional">
+            <div class="functional__slider swiper-container" data-mobile="false">
+              <ul class="functional__list swiper-wrapper">
+                <li class="functional__list-item swiper-slide">
+                  <article class="function">
+                    <p class="function__caption">Быстро</p>
+                    <h2 class="function__title">Проблем с рисованием — нет</h2>
+                    <p class="function__description">
+                      Рисуйте в приложении доступными кистями: карандаш, маркер,
+                      линер, масляная кисть и многие другие...
+                    </p>
+                  </article>
+                </li>
+                <li class="functional__list-item swiper-slide">
+                  <article class="function">
+                    <p class="function__caption">Просто</p>
+                    <h2 class="function__title">
+                      Нарисовали, преобразовали, сохранили
+                    </h2>
+                    <p class="function__description">
+                      Раз, два, три, больше нечего тут рассказать.
+                    </p>
+                  </article>
+                </li>
+              </ul>
+              <div class="swiper-pagination"></div>
+            </div>
+          </section>
+          <section class="feedback">
+            <h2 class="feedback__title">
+              Качайте приложение и улучшайте свои художества, а потом
+              хвастайтесь ими!
+            </h2>
+            <div class="feedback__container">
+              <h3 class="feedback__container-title">
+                Хотите нам что-то посоветовать?
+              </h3>
+              <p class="feedback__container-decription">
+                Оставьте заявку и мы свяжемся с вами.
+              </p>
+              <form name="feedbackForm" class="feedback__form">
+                <input
+                  required
+                  name="name"
+                  placeholder="Ваше Имя"
+                  type="text"
+                  class="feedback__input"
+                  minlength="2"
+                  maxlength="40"
+                />
+                <input
+                  required
+                  name="email"
+                  placeholder="Контактный Email"
+                  type="email"
+                  class="feedback__input"
+                  minlength="2"
+                  maxlength="200"
+                />
+                <textarea
+                  required
+                  name="message"
+                  placeholder="Сообщение"
+                  class="feedback__message"
+                  minlength="2"
+                  maxlength="1000"
+                ></textarea>
+                <button
+                  aria-label="Кнопка отправления формы"
+                  type="submit"
+                  class="feedback__button"
+                >
+                  Оставить заявку
+                </button>
+              </form>
+            </div>
+          </section>
+        </main>
+        <footer class="footer">
+          <div class="footer__container">
+            <h2 class="footer__title">Хотите скачать приложение?</h2>
+            <p class="footer__description">Качайте в ЭпСтор и ГуглПлэй.</p>
+            <button
+              aria-label="Кнопка перехода на сторонние сайты"
+              type="button"
+              class="footer__button"
+            >
+              Уже скоро!
+            </button>
+            <div class="footer__image"></div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
